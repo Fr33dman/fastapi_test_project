@@ -33,7 +33,7 @@ or get device with his MAC address id, gives response like:
       "devices": [
         {
           "dev_id": "57:DB:A2:16:BB:F3",
-          "dev_type": "emeter",
+          "dev_type": "gsm",
           "endpoint": null
         }
       ]
