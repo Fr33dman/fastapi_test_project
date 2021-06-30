@@ -20,11 +20,6 @@ class DeviceModel(BaseModel):
     dev_type: DeviceTypeField
     endpoint: Union[str, None]
 
-    # @validator('endpoint')
-    # def endpoint_validator(cls, v, values):
-    #     if 'endpoint' not in values or values['endpoint'] == None:
-    #         return None
-
 
 class DeviceTypeListModel(BaseModel):
     type: DeviceTypeField
